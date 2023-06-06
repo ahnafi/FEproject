@@ -4,7 +4,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import NotFound from "./pages/_404";
 import Home from "./pages/Home";
-// import Navbar from "./fragments/navbar/Navbar";
 
 const router = createBrowserRouter([
   {
