@@ -5,3 +5,7 @@
 html {
   @apply scroll-smooth;
 }
+
+.btn-card{
+  @apply px-4 py-2 w-full border active:scale-125 hover:scale-110
+}
