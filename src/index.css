@@ -7,5 +7,5 @@ html {
 }
 
 .btn-card{
-  @apply px-4 py-2 w-full border active:scale-125 hover:scale-110
+  @apply px-4 py-2 w-full border active:scale-125 hover:scale-110 hover:mx-2 rounded-lg
 }

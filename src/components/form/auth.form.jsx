@@ -29,6 +29,7 @@ export function FormLogin() {
           type="text"
           name="username"
           id="username"
+          autoComplete="off"
           className="block px-4 py-2 border rounded-lg w-full"
         />
         <label htmlFor="password">Password</label>

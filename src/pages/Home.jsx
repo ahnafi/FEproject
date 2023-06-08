@@ -1,7 +1,11 @@
 import Navbar from "../components/navbar/Navbar";
 import photo from "../assets/img/photo for project/erik-lucatero-d2MSDujJl2g-unsplash.jpg";
+import { useEffect } from "react";
+import { useLogin } from "../hooks/useLogin";
 
 const Home = () => {
+  // login true or false
+  const user = useLogin()
   function react(e) {
     e.target.classList.toggle("bg-blue-300");
   }
@@ -12,7 +16,7 @@ const Home = () => {
       <section id="home" className="bg-white">
         <div className="container">
           <div className="w-full max-w-xl px-4 py-2 flex justify-between items-center border-b ">
-            <a href="" className="">
+            <a href="" className="flex">
               <img
                 src={photo}
                 alt="profile"
